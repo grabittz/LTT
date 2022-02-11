@@ -112,12 +112,11 @@ notInUse: header__nav, nav__li;
     min-width: 460px;
     background: #7e3b00;
 }
-.products__featured,
-.releases{
+.products__featured{
     display:flex;
     flex-flow:row wrap;
     width:60vw;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
     background: #7e3b00;
     margin-top: 40px;
@@ -133,6 +132,7 @@ notInUse: header__nav, nav__li;
     max-width: 240px;
     margin: 6px;
     flex-flow: row wrap;
+    border: #e16a00 4px inset;
 }
 .product__img{
     height: 200px;
