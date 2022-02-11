@@ -66,6 +66,7 @@ notInUse: header__nav, nav__li;
     grid-area: logo;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .nav__ul{
     background: #7e3b00;
@@ -251,5 +252,4 @@ notInUse: footer__li;
     justify-content: flex-end;
     padding-bottom: 40px;
     padding-right: 10vw;
-    margin-left: -10vw;
 }
