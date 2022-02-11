@@ -26,6 +26,7 @@ h2,
 h3,
 a {
     color: #ffba7d;
+    margin-bottom: 0;
 }
 h1 {
     color: #f9f9f9;
@@ -36,7 +37,17 @@ h1 {
     align-items: center; 
     width: 100%;}
 
+.main{
+    width: 60vw;
+    background: #ff973a;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 460px;
+}
 
+.title__h1{
+    text-align: center;
+}
 /* ---- HEADER ---- */
 /*
 notInUse: header__nav, nav__li;
@@ -66,6 +77,7 @@ notInUse: header__nav, nav__li;
     min-width: 560px;
     padding: 10px 0;
 }
+
 /*  INDEX  */
 .firstArticle {
     margin: 0 auto;
@@ -135,12 +147,9 @@ notInUse: header__nav, nav__li;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     background: #f9f9f9;
     z-index: 10;
-}
-.product__value__btn{
-    align-self: flex-end;
 }
 
 .delivery {
@@ -160,24 +169,36 @@ notInUse: header__nav, nav__li;
     color: #f9f9f9;
 }
 
-/* ----PRODUCTS---- */
+/* ----PRODUCTS---- | ----SERVICE---- | ----SOFTWARE---- */
+.bgcolor1{background: #1aa;}
+.bgcolor2{background: #62a;}
+.bgcolor3{background: #a12;}
+.bgcolor4{background: #1fa;}
+.bgcolor5{background: #126;}
 
-.main{
-    display: flex;
-    justify-content: center;
-    min-width: 460px;
+.article{
+    background: #f9f9f9;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: #e16a00 2px solid;
 }
-.releases{
-    background: #a1a5;
-    width: 60vw;
-    min-width: 460px;
+.article__img{
+    display: inline-block;
 }
-.releases__featured{background: #1aa5;}
-.release__element{background: #11a5;}
-.element__img{background: #aaa5;}
-.element__description{background: #1555;}
-.element__text{background: #11a6;}
-.element__value{background: #11a7;}
+.article__about{
+    display: inline-block;
+}
+
+/* ----PRODUCTS---- */
+/* ----SERVICE---- */
+/* ----SOFTWARE---- */
+/* ----NEWS---- */
+/* ----CONTACT---- */
+
+
+
+
+
 
 
 /* ---- FOOTER ---- */
