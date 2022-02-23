@@ -23,31 +23,57 @@
                     <li class="nav__li"><a href="../pages/service.html">Service</a></li>
                     <li class="nav__li"><a href="../pages/software.html">Software</a></li>
                     <li class="nav__li"><a href="../pages/news.html">News</a></li>
-                    <li class="nav__li"><a href="../pages/contact.html">Contact</a></li>
+                    <li class="nav__li"><a href="../pages/contact.html" class="text--transition">Contact</a></li>
                 </ul>
             </nav>
         </header>
 <!-- CONTENT -->
         <section class="main">
             <h1 class="title__h1">Contact</h1>
-            <article>
-                <p></p>
-                <form action="">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <textarea name="" id="" cols="30" rows="10">
+            <article class="form">
+                <h3 class="form__title">Feedback</h3>
+                <fieldset>
+                    <legend>
+                                
+                        <form action="" class="form__data">
+                            <div class="row">
 
-                    </textarea>
-                </form>
+                                <div class="form-group col">
+                                    <label for="formGroupExampleInput" class="form-group-text">First Name</label>
+                                    <input type="text" class="form-control form-textarea" id="formGroupExampleInput" placeholder="first name">
+                                </div>
+                                
+                                <div class="form-group col">
+                                    <label for="formGroupExampleInput" class="form-group-text">Last Name</label>
+                                    <input type="text" class="form-control form-textarea" id="formGroupExampleInput" placeholder="last name">
+                                </div>
+                                
+                                <div class="form-group col">
+                                    <label for="exampleInputEmail1" class="form-group-text">Email address</label>
+                                    <input type="email" class="form-control form-textarea" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputPassword1" class="form-group-text" class="form-group-text">Comment</label>
+                                <textarea name="" id="" cols="15" rows="5" class="form-control form-textarea" placeholder="Leave a comment" resize="none"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                        </form>
+                    </legend>
+                </fieldset>
             </article>
-            <div>
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26495774054!2d-58.50350972246609!3d-34.61580363811416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1644574153338!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="lastContact">
+                <div class="lastContact__iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26495774054!2d-58.50350972246609!3d-34.61580363811416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1644574153338!5m2!1ses-419!2sar" class="iframe__map" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div>
-                    <!-- CONTACT INFO -->
+                <div class="lastContact__contact">
+                    <h4 class="contact__title">Contact Info</h4>
+                    <p class="contact__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit</p>
+                    <p class="contact__text">praesentium et minima deleniti ea, nihil nulla, tempore eum, consequuntur dolore rem</p>
+                    <p class="contact__text">illum ullam perferendis dolor? Inventore deleniti consectetur explicabo error?</p>
                 </div>
             </div>
         </section>
