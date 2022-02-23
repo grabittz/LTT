@@ -171,12 +171,20 @@ a {
 }
 
 .delivery {
+<<<<<<< HEAD
     background: #e16a00;
     display:flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(#e16a00,#7e3b00);
     margin-top: 10px;
+=======
+    background: #ff973a;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+>>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
 }
 .delivery__h2 {
     color: #241100;
@@ -208,12 +216,84 @@ a {
     display: inline-block;
     margin:12px;
     margin:auto 0;
+<<<<<<< HEAD
     margin-left: 10px;
+=======
+>>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
 }
 .article__about{
     display: inline-block;
     margin:10px;
     width: 100%;
+<<<<<<< HEAD
+}
+
+.article--flex{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    height: 100%;
+    background:#7e3b00;
+    border-radius: 10px;
+}
+
+.article__text{
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border: 1px #f9f9f966 solid;
+    margin: 10px;
+    padding:4px;
+}
+.article__data{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background:#f9f9f9;
+    border-radius: 10px ;
+    border: 1px #f9f9f966 solid;
+    margin: 10px;
+    padding:4px;
+}
+.article__tag{
+    margin: 0 4px;
+}
+.article__value{
+    margin-right:10px;
+}
+.article__value__text{
+    display:inline-block;
+    margin: 0 2px;
+}
+.article__value__btn{
+    display:inline-block;
+    margin: 0 2px;
+}
+
+.article__tag::before {
+    content: "tag: ";
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.button--effect{
+    background:#f9f9f9;
+    border:black 1px solid;
+    border-radius: 10px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.button--effect:active{
+    background: #f9f9f966;
+=======
+>>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
 }
 
 .article--flex{
@@ -281,6 +361,8 @@ a {
 .button--effect:active{
     background: #f9f9f966;
 }
+
+
 
 /* ----PRODUCTS---- */
 /* ----SERVICE---- */
@@ -422,6 +504,7 @@ a {
 }
 
 /* EFFECTS */
+<<<<<<< HEAD
 .text--transition{
     color:#f9f9f9;
     transition: all 2s;
@@ -593,3 +676,5 @@ body *{
 @media (max-width: 767.98px) {
 
 }
+=======
+>>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
