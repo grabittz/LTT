@@ -171,20 +171,12 @@ a {
 }
 
 .delivery {
-<<<<<<< HEAD
     background: #e16a00;
     display:flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(#e16a00,#7e3b00);
     margin-top: 10px;
-=======
-    background: #ff973a;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
->>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
 }
 .delivery__h2 {
     color: #241100;
@@ -216,84 +208,12 @@ a {
     display: inline-block;
     margin:12px;
     margin:auto 0;
-<<<<<<< HEAD
     margin-left: 10px;
-=======
->>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
 }
 .article__about{
     display: inline-block;
     margin:10px;
     width: 100%;
-<<<<<<< HEAD
-}
-
-.article--flex{
-    display: flex;
-    flex-flow:column nowrap;
-    justify-content: space-between;
-    height: 100%;
-    background:#7e3b00;
-    border-radius: 10px;
-}
-
-.article__text{
-    display: flex;
-    justify-content: center;
-    background: #f9f9f9;
-    border-radius: 10px;
-    border: 1px #f9f9f966 solid;
-    margin: 10px;
-    padding:4px;
-}
-.article__data{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    background:#f9f9f9;
-    border-radius: 10px ;
-    border: 1px #f9f9f966 solid;
-    margin: 10px;
-    padding:4px;
-}
-.article__tag{
-    margin: 0 4px;
-}
-.article__value{
-    margin-right:10px;
-}
-.article__value__text{
-    display:inline-block;
-    margin: 0 2px;
-}
-.article__value__btn{
-    display:inline-block;
-    margin: 0 2px;
-}
-
-.article__tag::before {
-    content: "tag: ";
-}
-
-.button{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-.button--effect{
-    background:#f9f9f9;
-    border:black 1px solid;
-    border-radius: 10px;
-    padding-right: 4px;
-    padding-left: 4px;
-}
-
-.button--effect:active{
-    background: #f9f9f966;
-=======
->>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
 }
 
 .article--flex{
@@ -361,8 +281,6 @@ a {
 .button--effect:active{
     background: #f9f9f966;
 }
-
-
 
 /* ----PRODUCTS---- */
 /* ----SERVICE---- */
@@ -373,6 +291,7 @@ a {
     display:flex;
     flex-flow: row nowrap;
     width: 100%;
+    max-height: 420px;
 }
 .new__video{
     background: #ff973a;
@@ -381,13 +300,15 @@ a {
     display:inline-block;
     margin: 10px;
 }
+.new__iframe{
+    height: 100%;
+    width: 100%;
+}
 .new__title{
     color: #000;
     background: #f9f9f9;
     border-radius: 10px;
-    max-width: 240px;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin:10px;
     margin-bottom: 6px;
 }
 .new__about{
@@ -434,10 +355,9 @@ a {
 .lastContact{
     display:flex;
     flex-flow: row nowrap;
-    margin: 10px;
+    padding: 10px;
     justify-content: space-evenly;
     align-content: center;
-    max-height: 360px;
 }
 .iframe__map{
     min-width:360px;
@@ -446,12 +366,15 @@ a {
 .lastContact__contact{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
     align-items: center;
     margin: 10px;
     max-height: 340px;
+    overflow: hidden;
 }
-
+.contact__text{
+    align-self: flex-start;
+    max-width:300px ;
+}
 /* ---- FOOTER ---- */
 
 .footer {
@@ -504,7 +427,6 @@ a {
 }
 
 /* EFFECTS */
-<<<<<<< HEAD
 .text--transition{
     color:#f9f9f9;
     transition: all 2s;
@@ -537,39 +459,41 @@ a {
     animation-name: ease_in-out;
 }
 /* MEDIA MOBILE */
-@media (max-width: 575.98px) {
+@media (max-width: 575.98px) and (min-width: 359.98px){
 
 /* VALUES GENERAL */
-body *{
+
+/*
+ body *{
     display: none;
 }
-
+*/
+body{
+    width: 100vw;
+}
 /* ---- HEADER ---- */
 
 .header{
     margin-top: 40px;
-    display: grid;
-    min-height: 320px;
-    grid-template-areas: "logo" "nav";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 50px;
+    display:block;
+    background: #d2a;
+    width:100vw;
 }
 .header__logo{
-    min-width: 254px;
-    grid-area: logo;
+    height: 127px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    width:100vw;
 }
 .nav__ul{
     background: #7e3b00;
-    width: 60vw;
-    grid-area: nav;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
-    min-width: 560px;
     padding: 10px 0;
+    min-width:0;
+    width:100vw;
 }
 
 /*  INDEX  */
@@ -669,12 +593,6 @@ body *{
 }
 .delivery__h2:hover {
     color: #f9f9f9;
-    
 }
 
 }
-@media (max-width: 767.98px) {
-
-}
-=======
->>>>>>> 39a77ca2ad79fac19a52ce18c6290c5f094afef9
