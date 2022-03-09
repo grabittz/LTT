@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,EAAE,CAAA;EACE,UAAU,ECFL,OAAO;CDGf",
+    "sources": [
+        "style--sass.scss",
+        "_vars.scss",
+        "_mobile.scss"
+    ],
+    "names": [],
+    "file": "style--sass.css"
+}
